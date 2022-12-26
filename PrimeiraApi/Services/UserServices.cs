@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace PrimeiraApi.NovaPastaService {
+namespace PrimeiraApi.Services {
     public class UserServices {
         public ListUsers getServices() {
             try {

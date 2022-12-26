@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PrimeiraApi.Models;
-using PrimeiraApi.NovaPastaService;
+using PrimeiraApi.Services;
 
 namespace PrimeiraApi.Controllers {
     [ApiController]
