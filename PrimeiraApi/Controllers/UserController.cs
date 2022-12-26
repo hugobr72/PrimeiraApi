@@ -12,7 +12,7 @@ namespace PrimeiraApi.Controllers {
         public async Task<IActionResult> GetUsers() {
             try {
                 
-                var users = data.getServices();
+                var users =  data.getServices();
                 return Ok(users);
             }catch(Exception ex) {
                 return BadRequest(ex.Message);
